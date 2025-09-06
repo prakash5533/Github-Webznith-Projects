@@ -1,0 +1,822 @@
+             ************ḥtml*********
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- link icons -->
+<link id="link"
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+      
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+   <title>Portfolio</title>
+   </head>
+
+<body>
+              <!-- nav bar -->
+       
+<nav>
+       <div class="nav_content">  
+      <!-- /checkbox -->
+       <div class="logo"><a href="#">Portfolio</a></div>
+      <label for="check" class="checkbox">  <i class="ri-menu-line"></i>   </label>
+      <input type="checkbox" name="check" id="check">
+      <ul class="bar">
+          <li><a href="#home">home</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#project">project</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">contact</a></li>
+      </ul>
+   </div>     
+</nav>
+      <section class="section" id="home">
+ <div class="section_container">
+    <div class="content">
+       <p class="subtitle">HELLO</p>
+           <h1 class="title">
+            I,m <span>Prakash <br> a</span> Web Developer         
+        </h1>
+       <p class="description">Welcome to my portfolio! I’m Prakash, a skilled web developer passionate about delivering modern, responsive, and visually striking web solutions for businesses and individuals.</p>
+       
+         <!-- social media -->
+
+       <div class="social_media">
+
+      
+        <ul>
+            
+                
+             <li><a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"><img src="linkedin.png" alt=""></a>
+             <li> <a href="https://mail.google.com/mail/u/0/#inbox"><img src="email.png" alt=""></a></li>
+            <li>  <a href=""><img src="github.png" alt=""></a></li></li>
+           
+        </ul>
+     
+       </div>
+
+
+
+
+
+       <!--  Header button -->
+       <div class="action_btn">
+      <button class="hire_me">Hire Me</button>
+      <button class="download_cv">Download CV</button>
+     </div>
+
+     <!-- image -->
+      <div class="images">
+              <img src="zenitsu agatsuma.jpg" alt="">       
+               </div>
+                    </div>        
+              </div>
+      </section>
+      
+      
+        <!-- Skills Section -->
+    <section id="skills">
+        
+        <div class="skill-content" id="Skills">
+            <h1> Skills</h1>
+            <p>Here are the skills and I have developed over the years</p>
+
+            <div class="skill-list">
+                <div class="skill">
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+                
+                <div class="skill">
+                    <h3>Version Control</h3>
+                    <p>Git, GitHub, other</p>
+                </div>
+                <div class="skill">
+                    <h3>UI/UX Design</h3>
+                    <p>Figma, Adobe XD, Sketch</p>
+                </div>
+                  <div class="skill">
+                    <h3>FrameWork</h3>
+                    <p>BootStrap,ReactJs,AngularJs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!-- Work Section -->
+    <section id="work">
+        <div class="work-content" id="project">
+            <h1>My Work</h1>
+            <p>Here are some of the projects and I have worked on</p>
+
+            <!-- Project 1 -->
+            <div class="project">
+                <h3>Project 1: Portfolio Website</h3>
+                <p>Created a personal portfolio website showcasing my web development skills. This website includes
+                    interactive elements and a responsive design.</p>
+                <a href="PORFOLIO.HTML" target="_blank" class="btns ">View Project</a> <!-- Sample only-->
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project">
+                <h3>Project 2: E-commerce Platform</h3>
+                <p>Developed a full-fledged e-commerce website with a Perfume Website, user authentication,.</p>
+                <a href="PERFUME.HTML" target="_blank" class="btns">View Project</a> <!-- Sample only-->
+            </div>
+
+            <!-- More projects can be added similarly -->
+
+        </div>
+    </section>
+
+      <!-- About section -->
+
+        <section id="about">
+        <h1>About Me</h1>
+        <p>
+            Hello! I'm a passionate and dedicated developer with a deep love for web development. I specialize in both
+            front-end and back-end technologies, creating dynamic and responsive websites and applications that provide
+            excellent user experiences.
+        </p>
+        <p>
+            With experience in a wide range of frameworks and programming languages, I enjoy working with tools such as
+            HTML, CSS, JavaScript and more. I am also familiar with databases like MySQL and MongoDB, and I strive to
+            build scalable, efficient solutions that meet the needs of both users and businesses
+        </p>
+        <p>
+            Over the years, I've had the opportunity to work on a variety of projects in freelance from small-scale
+            personal websites to larger enterprise-level applications. Each project has provided unique challenges, and
+            I always approach them with creativity, problem-solving skills, and a commitment to delivering high-quality
+            results
+        </p>
+        <p>
+            After coding then other side, Iam constantly learning and exploring new technologies and best practices in
+            the ever-evolving world of web development. Whether it's experimenting with the latest JavaScript frameworks
+            or improving my understanding of back-end architecture and always looking for ways to grow as a developer
+        </p>
+        <p>
+            My ultimate goal is to continue honing my skills and collaborating with clients to bring their visions to
+            life. I am committed to delivering high-quality work, staying on schedule, and ensuring that every project I
+            undertake exceeds expectations.
+        </p>
+    </section>
+        
+
+
+
+<!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-container">
+            <h1>Contact Me</h1>
+            <p>If you have any questions or want to get in touch, feel free to reach out using the form below</p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name" autocomplete="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email"
+                        autocomplete="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Enter your message"
+                        autocomplete="off"></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+            <div id="successMessage" class="success-message" style="display: none;">
+                <p>Your message has been sent successfully</p>
+            </div>
+        </div>
+    </section>
+
+
+
+             
+
+
+</body>
+</html>
+
+
+            ************css*********
+
+
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* root color */
+:root{
+      --primary-color:#E744F2;    
+      --primary-color-dark:#E011EE;
+      --secondary-color:#EEC211;
+      --text-dark:#1E2029;
+      --text-light:#BCBFCD;
+      --extra-light:#F0F1F5;
+      --max-width:1200px;    
+}
+*{
+      padding: 0%;
+      margin: 0%;
+      box-sizing: border-box; 
+               
+}
+
+a{
+   text-decoration: none;
+}
+
+    /* body */
+
+body{
+       font-family:'poppins',sans-serif; 
+      
+       
+}
+      /* nav bar */
+nav{
+     width: 100%;
+     position: fixed;
+     top: 0%;
+     left: 0%; 
+     background-color: #ffffff;  
+     z-index: 99;   
+}
+
+            /* social media */
+.social_media img{
+  
+  position: relative;
+  top: 47vh;
+  width: 35px;
+  height: 35px;
+  display:block;
+  margin-left: 15px;
+
+}
+
+                       
+
+
+.social_media img {
+  width: 30px;
+  height: 30px;
+  /* background: rgb(249, 193, 250); */
+  transition: transform 0.5s ease;  /* smooth zoom */
+  
+}
+
+.social_media img:hover {
+  transform: scale(1.75); /* zoom in to 120% */
+  background-color: #fcd4ff;
+  border: 2px solid var(--primary-color);
+   border-radius: 50%;
+}
+
+
+
+/* Desktop navbar (full screen) */
+.nav_content {
+  max-width: var(--max-width);  
+  margin: auto;
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+/* Push menu to the right */
+nav ul {
+  margin-left: auto;   /* ✅ moves ul fully to the right */
+}
+
+           /* nav logo */
+
+nav.logo {
+         font-size: 1.5rem;
+         font-weight: 600;
+         color: var(--primary-color); 
+         transition: 3s;    
+}
+nav.logo a:hover{
+        color: var(--primary-color-dark);
+}
+.logo a{
+       color: var(--primary-color-dark);
+       font-weight: 600;
+       font-size: 3vh;
+}
+
+nav.checkbox{
+      display: none;
+}
+
+nav input{
+        display: none;      
+}
+nav.checkbox i{
+        font-size: 2rem;
+        color: var(--primary-color); 
+        cursor: pointer; 
+          
+}
+.checkbox{
+        position: relative;
+        left: 0px;      
+}
+
+ul{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      list-style: none;
+      transition: left 0.3s;        
+}
+
+.bar li a{
+       padding: .5rem 1rem;  
+       border: 2px solid transparent;
+       text-decoration: none;
+       font-weight: 600;
+       color: var(--text-dark);   
+       transition: 0.3s;  
+}
+
+
+
+ul li a:hover{
+        border-top-color:var(--secondary-color) ; 
+        border-bottom-color:var(--secondary-color) ;   
+        color:var(--secondary-color)  
+}
+.section{
+         background-color: var(--extra-light); 
+         height: 100vh;
+             
+}
+
+             /* section content */
+.section_container{
+          min-height: 100vh;
+          max-width: var(--max-width);
+          margin: auto;
+          padding: 1rem;
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          gap: 4rem; 
+         
+}
+
+.content{
+       display:flex ;
+       flex-direction: column;
+       justify-content: center;
+}
+
+.subtitle{
+          letter-spacing: 2px; 
+          color: var(--text-light);
+          font-weight: 600;
+          margin-bottom: .5rem;
+          
+
+}
+
+.subtitle{
+              position: relative;
+        top: 20vh; 
+        
+}
+
+
+
+
+
+.title{
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 3rem;
+        color: var(--text-dark);
+        margin-bottom: 1rem; 
+        position: relative;
+        top: 20vh;
+             
+}
+
+.title span{
+         font-weight: 600;     
+}
+
+.description{
+        line-height:1,5rem ;
+        color: var(--text-light);
+        margin-bottom: 2rem;
+         position: relative;
+        top: 20vh;
+}
+
+         /* buttton */
+.action_btn{
+          display: flex;
+          gap: 1rem;    
+}
+
+.action_btn button{
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 2px;
+        padding: 1rem 2rem;
+        outline: none;
+        border: 2px solid var(--primary-color);
+        border-radius: 15px;
+        transition: 0.3s;
+        cursor: pointer;
+        position: relative;
+        top: 20vh;
+}
+
+.hire_me{
+        background-color: var(--primary-color);  
+        color: #ffffff;    
+}
+.hire_me:hover{
+         background-color: var(--primary-color-dark);     
+}
+.download_cv{
+         color: var(--primary-color);     
+}
+.download_cv:hover{
+         background-color: var(--primary-color-dark);
+         color: #ffffff;
+}
+       /* image  */
+
+.images{
+         display: grid;
+         place-items: center;     
+}
+
+.images img{
+          width: min(25rem,90%);
+          border-radius: 100%;
+          height: 50%; 
+         position: relative;
+         left: 95vh;
+         bottom: 55vh;
+          
+}
+
+
+
+/*css for work 
+
+/* Skills Section */
+#skills {
+  padding: 40px;
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 40px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: var(--extra-light); 
+  
+}
+
+
+#skills h1 {
+  font-size: 36px;
+  margin-top: 20px;
+
+  color: var(--primary-color);
+}
+
+#skills p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Skill List Styling */
+.skill-list {
+              display: flex;
+              gap: 20px;
+margin-top: 20px;
+  flex-wrap:wrap;
+                justify-content:center;
+               
+}
+
+.skill {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   flex-basis:25%;   /*want to ask */
+    
+}
+
+/* #skills .skill:hover {
+   border:2px solid gray;  
+   background-color: yellow;
+   color: grey; 
+   transition: 0.5s;
+   transform: rotateY(360deg); /* keep only for skills */
+
+   #skills .skill {
+  width: 200px;
+  height: 200px;
+  background: rgb(249, 193, 250);
+  transition: transform 0.5s ease;  /* smooth zoom */
+}
+
+#skills .skill:hover {
+  transform: scale(1.10); /* zoom in to 120% */
+}
+
+
+
+.skill h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.skill p {
+  font-size: 16px;
+  color: #555;
+}
+
+
+/*css for work 
+
+
+
+
+
+
+/* Work Section */
+#work {
+  padding: 100px;
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 40px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+ background-color: var(--extra-light); 
+}
+
+#work h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  position: relative;
+  right: 40px;
+  color: var(--primary-color);
+}
+#work p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+/* Project Styling */
+.project {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+ 
+  
+}
+
+.project:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.project p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+
+}
+
+
+ 
+  /* extra effect for button */
+.project .btns {
+               display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--primary-color-dark);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px;
+}
+.project .btns:hover {
+  background-color: rgb(251, 173, 253); /* Darker shade for hover */
+}
+
+/* About Section */
+#about {
+  padding: 40px;
+   background-color: var(--extra-light); 
+         height: 100vh;
+  max-width: 89%;
+  margin: 40px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  
+}
+
+#about h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color:var(--primary-color);
+}
+
+#about p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+
+
+/*css for contact 
+
+/* Contact Section */
+#contact {
+  padding: 40px;
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 40px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: var(--extra-light); 
+}
+
+#contact h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#contact p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+
+/* Contact Form Styling */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.form-group {
+  margin-bottom: 30px;
+}
+.form-group label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.form-group input,              /* doubt section */
+.form-group textarea {
+  padding: 12px;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid #ccc;          
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: var(--primary-color-dark);
+  outline: none;
+}
+.form-group textarea {
+  resize: vertical;
+}
+
+.btn-submit {
+  background-color: var(--primary-color);
+  color: rgb(240, 234, 240);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  cursor: pointer;
+ 
+}
+.btn-submit:hover {
+  background-color: rgb(251, 173, 253); /* Darker shade for hover */
+}
+
+
+
+
+
+
+            /* media query */
+/* ---------- MEDIA QUERY FOR SMALL DEVICES ---------- */
+@media (max-width: 750px) {
+  /* Navbar toggle visible */
+  nav .checkbox {
+    display: block;
+  }
+
+  /* Mobile menu */
+  ul {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transition: 0.3s ease-in-out;
+  }
+
+  nav #check:checked ~ ul {
+    left: 0;
+  }
+
+  ul li a {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+
+  /* Hero section stacked */
+  .section_container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 8rem 1rem 2rem 1rem;
+    display: flex;          
+    flex-direction: column; 
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+  }
+
+  /* Image on top */
+  .images {
+    order: -1; 
+    display: flex;
+    justify-content: center;
+  }
+
+  .images img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: static; 
+    margin-bottom: 3px; /* ✅ only 10px gap below image */
+  }
+
+  /* Buttons centered */
+  .action_btn {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .action_btn button {
+    padding: 0.8rem 1.5rem;
+  }
+
+  /* Adjust text */
+  .title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+    line-height: 1.4rem;
+    margin: 0.5rem 0 1rem 0;
+  }
+}
+
+
+
+
+
+
